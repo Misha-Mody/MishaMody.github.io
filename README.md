@@ -28,6 +28,6 @@ Personal homepage website using HTML, CSS and Javascript demonstrating my work e
 
 ## Instructions to build
 
-1. Clone the repo using `git clone `
+1. Clone the repo using `git clone https://github.com/Misha-Mody/MishaMody.github.io.git`
 2. Install the node modules using `npm install`
 3. Start a http server using `http-server`
