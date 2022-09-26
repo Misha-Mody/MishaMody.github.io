@@ -1,0 +1,255 @@
+
+
+.grey-bg{
+    background-color: #454749;
+}
+
+.contact {
+    position: relative;
+    margin: 0 0 0 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* .welcome{
+    margin-top: 40px;
+} */
+
+.welcomeTxtLg{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.welcomeTxtSm{
+    font-size: 30px;
+}
+
+.welcome{
+    z-index: 200;
+    margin: auto;
+}
+
+.hexagon {
+    width: 8vw;
+	height: 4.62vw;
+	background: #ffb01d;
+    position: absolute;
+    z-index: 100;
+}
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    left: 0;
+	width: 0;
+	height: 0;
+	border-left: 4vw solid transparent;
+    border-right: 4vw solid transparent;
+    z-index: 100;
+}
+.hexagon:before {
+	top: -2.31vw;
+	border-bottom: 2.31vw solid #ffb01d;
+}
+.hexagon:after {
+	bottom: -2.31vw;
+	border-top: 2.31vw solid #ffb01d;
+}
+
+.hexagonInner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.5vw;
+    margin-top: -2.02vw;
+    width: 7vw;
+    height: 4.04vw;
+    background: #454749;
+    z-index: 200;
+}
+.hexagonInner:before,
+.hexagonInner:after {
+    content: "";
+    position: absolute;
+    left: 0;
+	width: 0;
+	height: 0;
+	border-left: 3.5vw solid transparent;
+    border-right: 3.5vw solid transparent;
+    z-index: 200;
+}
+.hexagonInner:before {
+    top: -2.02vw;
+	border-bottom: 2.02vw solid #454749;
+}
+.hexagonInner:after {
+    bottom: -2.02vw;
+	border-top: 2.02vw solid #454749;
+}
+
+.centerHex {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    top: 50%;
+    left: 50%;
+    margin-top: -2vw;
+    margin-left: -2vw;
+    font-size: 4vw !important;
+    text-align: center;
+    justify-content: center;
+    color: #ffb01d;
+}
+
+.activeHex_m {
+    z-index: 150;
+    animation: popHex .75s 0s linear 1 forwards;
+}
+.activeHex_ur {
+    z-index: 150;
+    animation: slideHex_ur .75s 0s linear 1 forwards;
+}
+.activeHex_l {
+    z-index: 150;
+    animation: slideHex_l .75s 0s linear 1 forwards;
+}
+.activeHex_r {
+    z-index: 150;
+    animation: slideHex_r .75s 0s linear 1 forwards;
+}
+.activeHex_ll {
+    z-index: 150;
+    animation: slideHex_ll .75s 0s linear 1 forwards;
+}
+
+@keyframes popHex {
+    0% {
+        transform:scale(1,1);
+    }
+    20% {
+        transform:scale(1.5,1.5);
+    }
+    40% {
+        transform:scale(1.5,1.5);
+    }
+    60% {
+        transform:scale(1,1);
+    }
+    70% {
+        transform:scale(1.2,1.2);
+    }
+    80% {
+        transform:scale(1,1);
+    }
+    90% {
+        transform:scale(1.1,1.1);
+    }
+    100% {
+        transform:scale(1,1);
+    }
+}
+@keyframes slideHex_ur {
+    0% {
+        transform:translate(0,0);
+    }
+    20% {
+        transform:translate(0.86vw,-1.5vw);
+    }
+    40% {
+        transform:translate(0.86vw,-1.5vw);
+    }
+    60% {
+        transform:translate(0,0);
+    }
+    70% {
+        transform:translate(0.69vw,-1.2vw);
+    }
+    80% {
+        transform:translate(0,0);
+    }
+    90% {
+        transform:translate(0.63vw,-1.1vw);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}
+@keyframes slideHex_l {
+    0% {
+        transform:translate(0,0);
+    }
+    20% {
+        transform:translate(-1.5vw,0);
+    }
+    40% {
+        transform:translate(-1.5vw,0);
+    }
+    60% {
+        transform:translate(0,0);
+    }
+    70% {
+        transform:translate(-1.2vw,0);
+    }
+    80% {
+        transform:translate(0,0);
+    }
+    90% {
+        transform:translate(-1.1vw,0);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}
+@keyframes slideHex_r {
+    0% {
+        transform:translate(0,0);
+    }
+    20% {
+        transform:translate(1.5vw,0);
+    }
+    40% {
+        transform:translate(1.5vw,0);
+    }
+    60% {
+        transform:translate(0,0);
+    }
+    70% {
+        transform:translate(1.2vw,0);
+    }
+    80% {
+        transform:translate(0,0);
+    }
+    90% {
+        transform:translate(1.1vw,0);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}
+@keyframes slideHex_ll {
+    0% {
+        transform:translate(0,0);
+    }
+    20% {
+        transform:translate(-0.86vw,1.5vw);
+    }
+    40% {
+        transform:translate(-0.86vw,1.5vw);
+    }
+    60% {
+        transform:translate(0,0);
+    }
+    70% {
+        transform:translate(-0.69vw,1.2vw);
+    }
+    80% {
+        transform:translate(0,0);
+    }
+    90% {
+        transform:translate(-0.63vw,1.1vw);
+    }
+    100% {
+        transform:translate(0,0);
+    }
+}

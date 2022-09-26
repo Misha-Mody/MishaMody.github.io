@@ -1,0 +1,145 @@
+body {
+    
+    font-family: 'Roboto';
+    margin: auto;
+    box-sizing: border-box;
+
+  }
+
+  .grey-bg{
+    background-color: #454749;
+  }
+  
+ .name {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+ }
+.women-img{
+    margin: 20px auto 0px auto;
+}
+ .women-class{
+text-align: center;
+    margin: 20px auto;
+ }
+  
+  .work-img { 
+    font-size: 30px;
+  }
+
+  .icon-box{
+    font-size: 30px;
+    padding: 30px;
+    margin: 79px 0px;
+    color: white;
+    text-align: center;
+    background-color: black;
+  }
+  
+ 
+  .work-experience {
+    background-color: #919599;
+    margin: 15px 15px 15px 15px;
+    box-sizing: border-box;
+    padding: 20px 3px;
+  }
+
+  .work-experience:hover{
+    background-color: #9ba8b4;
+  }
+  
+
+  
+  .job-title {
+    font-weight: bold;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  .job-date{
+    color: white;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  
+  .job-description{
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  
+  /**Education box**/
+  .education {
+    float: left;
+    box-shadow: 10px 10px 5px grey;
+    background-color: #919599;
+    box-sizing: border-box;
+    height: 300px;
+    width: 850px;
+    margin: 15px 15px 15px 15px;
+  }
+  
+  /**interest box**/
+  .interest {
+    float: left;
+    box-shadow: 10px 10px 5px grey;
+    background-color: #919599;
+    box-sizing: border-box;
+    height: 300px;
+    width: 410px;
+    margin: 15px 15px 15px 15px;
+  }
+  
+  /**Skills box**/
+  /* .skills {
+    float: left;
+    box-shadow: 10px 10px 5px grey;
+    background-color: #919599;
+    box-sizing: border-box;
+    height: 300px;
+    width: 410px;
+    margin: 15px 15px 15px 15px;
+  } */
+  
+   /* li{
+    list-style-type: none;
+  } */
+  
+  /* ul {
+    list-style: none;
+    margin: 10px 20px 20px 45px;
+  }
+  
+  li.l1 {
+    border: solid;
+    border-width: 1px;
+    background-color: #b30000;
+    margin: 10px 110px 10px 0px;
+  }
+  
+  li.l2 {
+    border: solid;
+    border-width: 1px;
+    background-color: #b30000;
+    margin: 10px 130px 10px 0px;
+  }
+  
+  li.l3 {
+    border: solid;
+    border-width: 1px;
+    background-color: #b30000;
+    margin: 10px 0px 10px 0px;
+  }
+  
+  li.l4 {
+    border: solid;
+    border-width: 1px;
+    background-color: #b30000;
+    margin: 10px 90px 10px 0px;
+    padding: 0px 101px 0px 0px;
+  } */
+  
+  
+  
+  
+  

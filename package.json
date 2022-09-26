@@ -1,0 +1,27 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Prsonal homepage to display conact information, education, work experience and showcase some projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "homepage",
+    "jacascript"
+  ],
+  "author": "Misha Mody",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-plugin-react": "^7.31.8"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "http-server": "^14.1.1"
+  }
+}

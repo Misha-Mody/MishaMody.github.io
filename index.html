@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- author , icon  and description metadata -->
+    <meta name="author" content="Misha Mody" />
+    <meta name="description" content="The homepage displays personal contact information, resume, work experience
+    and education. It also mentions some cool projects." />
+    <link rel="icon" href="./images/coding.ico" type="image/x-icon" />
+
+    <!-- style sheets -->
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+
+    <!-- javascript -->
+    <script src="scripts/index.js"></script>
+
+    <!-- bootstrap   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+
+    <!-- title -->
+    <title>MyHomepage</title>
+</head>
+
+<body>
+
+    <!-- navabr -->
+    <nav class="navbar mynav navbar-dark bg-dark sticky-top navbar-scroll navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Homepage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Experience</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- contact information -->
+
+    <div class="container-fluid">
+        <div class="row grey-bg">
+            <div class="col-lg-6">
+                <div class="contact">
+                    <div id="hex12" class="hexagon" style="top: 4.7vw; left:0.2vw;">
+                        <div class="hexagonInner"></div>
+                    </div>
+                    <div id="hex21" class="hexagon" style="top: 12vw; left:-4vw;">
+                        <div class="hexagonInner"></div>
+                    </div>
+                    <div id="hex23" class="hexagon" style="top: 12vw; left:4.4vw;">
+                        <div class="hexagonInner"></div>
+                    </div>
+                    <div id="hex25" class="hexagon" style="top: 12vw; left:12.8vw;">
+                        <div class="hexagonInner"></div>
+                    </div>
+                    <div id="hex36" class="hexagon" style="top: 19.3vw; left:17vw;">
+                        <div class="hexagonInner"></div>
+                    </div>
+                    <div id="hex38" class="hexagon" style="top: 19.3vw; left:25.4vw;">
+                        <div class="hexagonInner">
+                            <a target="_blank" href="https://www.linkedin.com/in/misha-mody/"> <i aria-hidden="true"
+                                    class="fa fa-linkedin  centerHex" onmouseover="hexHover('hex38', 'ur')"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="hex45" class="hexagon" style="top: 26.6vw; left:12.8vw;">
+                        <div class="hexagonInner">
+                            <a target="_blank" href="mailto:mmody@northeastern.edu"> <i aria-hidden="true"
+                                    class="fa fa-envelope  centerHex" onmouseover="hexHover('hex45', 'l')"></i></a>
+                        </div>
+                    </div>
+                    <div id="hex47" class="hexagon" style="top: 26.6vw; left:21.2vw;">
+                        <div class="hexagonInner">
+                        </div>
+                    </div>
+                    <div id="hex49" class="hexagon" style="top: 26.6vw; left:29.6vw;">
+                        <div class="hexagonInner">
+                            <a target="_blank" href="https://github.com/Misha-Mody"> <i aria-hidden="true"
+                                    class="fa fa-github  centerHex" onmouseover="hexHover('hex49', 'r')"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="hex56" class="hexagon" style="top: 33.9vw; left:17vw;">
+                        <div class="hexagonInner">
+                            <a target="_blank" href="https://twitter.com/MishaMody1"> <i aria-hidden="true"
+                                    class="fa fa-twitter  centerHex" onmouseover="hexHover('hex56', 'll')"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="hex58" class="hexagon" style="top: 33.9vw; left:25.4vw;">
+                        <div class="hexagonInner"></div>
+                    </div>
+                    <div id="hex69" class="hexagon" style="top: 41.2vw; left:29.6vw;">
+                        <div class="hexagonInner"></div>
+                    </div>
+                    <div id="hex78" class="hexagon" style="top: 48.5vw; left:25.4vw;">
+                        <div class="hexagonInner"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 welcome" style="margin:auto;">
+                <p class="welcomeTxtLg">Hi, I am Misha!</p>
+                <p class="welcomeTxtSm">Welcome to my Homepage. I am a Masters student at Northeastern University. I
+                    am a passionate web-developer.</p>
+                <p>Feel free to click on the links to the left and connect with me on social media or download my
+                    resume.</p>
+                <button type="button" class="btn btn-light"> <a href="./public/MISHA-MODY-RESUME.pdf" download>Download
+                        Resume</a></button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
