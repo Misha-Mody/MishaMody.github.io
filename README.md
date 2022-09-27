@@ -1,11 +1,13 @@
-# MishaMody.github.io
+# Misha's Homepage
 
 Personal homepage website using HTML, CSS and Javascript demonstrating my work experience, education and contact information.
 
 ## Author : Misha Mody
+## Deplyed at: [MishaMody.github.io](https://MishaMody.github.io)
 
 
-## Class Link : https://johnguerra.co/classes/webDevelopment_fall_2022/Links to an external site.
+## Class: 
+[link](https://johnguerra.co/classes/webDevelopment_fall_2022) to an external site.
 
 
 ## Project Objective :
@@ -22,6 +24,8 @@ Personal homepage website using HTML, CSS and Javascript demonstrating my work e
 3. Start a http server using `http-server`
 4. Open `http://127.0.0.1:8080` on the web browser to view the project
 
+## Link to the video demonstration
+[slides]() [video]()
 
 ## Screenshot :
 
